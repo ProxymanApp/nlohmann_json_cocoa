@@ -1,11 +1,11 @@
-# nlohmann_json-cocoapod
+# nlohmann_json_cocoa
 
 This project is unofficial to maintain a cocoapod for [nlohmann_json](https://github.com/nlohmann/json)
 
-to add nlohmann/json to your iOS project add the following pod:
-
-    pod 'nlohmann_json', '~>3.6.1'
-
+to add nlohmann/json to your project add the following pod:
+```bash
+    pod 'nlohmann_json_cocoa', '~>3.6.1'
+```
 
 # example
 

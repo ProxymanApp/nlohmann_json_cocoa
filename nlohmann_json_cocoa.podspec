@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "nlohmann_json"
+  s.name         = "nlohmann_json_cocoa"
   s.version      = "3.6.1"
   s.summary      = "JSON for Modern C++"
 
@@ -23,13 +23,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/nlohmann/json"
   s.screenshots  = "https://raw.githubusercontent.com/nlohmann/json/master/doc/json.gif"
 
-
   license_text = File.read("LICENSE.MIT")
-  # cocoapods checks extension and expects it to be a txt. so instead
-  # we read the file and pass it in as text.
   s.license      = { :type => "MIT", :text => license_text }
-
-
   s.authors      = {
     "Niels Lohmann" => "mail@nlohmann.me"
   }
