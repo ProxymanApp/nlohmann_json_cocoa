@@ -1,0 +1,16 @@
+PODS:
+  - nlohmann_json (3.1.2)
+
+DEPENDENCIES:
+  - nlohmann_json
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - nlohmann_json
+
+SPEC CHECKSUMS:
+  nlohmann_json: f36a446361e5de498a21af730eb9f098541a5635
+
+PODFILE CHECKSUM: 9bc2a6b8a6954bf4a83c504f067ad4f04288d919
+
+COCOAPODS: 1.5.3
