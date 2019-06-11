@@ -4,7 +4,7 @@ This project is unofficial to maintain a cocoapod for [nlohmann_json](https://gi
 
 to add nlohmann/json to your iOS project add the following pod:
 
-    pod 'nlohmann_json', '~>3.5.0'
+    pod 'nlohmann_json', '~>3.6.1'
 
 
 # example

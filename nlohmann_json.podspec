@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "nlohmann_json"
-  s.version      = "3.5.0"
+  s.version      = "3.6.1"
   s.summary      = "JSON for Modern C++"
 
 
@@ -34,15 +34,11 @@ Pod::Spec.new do |s|
     "Niels Lohmann" => "mail@nlohmann.me"
   }
 
-  s.platform     = :ios, "8.0"
-
-  # When using multiple platforms. I haven't tested integration with other
-  # platforms. Theoretically it should just work without problem.
-  # s.ios.deployment_target = "8.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
-
+  s.platform     = :ios, "9.0"
+  s.ios.deployment_target = "9.0"
+  s.osx.deployment_target = "10.12"
+  s.watchos.deployment_target = "2.0"
+  s.tvos.deployment_target = "9.0"
 
   s.source       = { :git => "https://github.com/nlohmann/json.git", :tag => "v#{s.version}" }
 
