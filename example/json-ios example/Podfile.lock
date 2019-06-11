@@ -1,16 +1,16 @@
 PODS:
-  - nlohmann_json (3.1.2)
+  - nlohmann_json_cocoa (3.6.1)
 
 DEPENDENCIES:
-  - nlohmann_json
+  - nlohmann_json_cocoa
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - nlohmann_json
+    - nlohmann_json_cocoa
 
 SPEC CHECKSUMS:
-  nlohmann_json: f36a446361e5de498a21af730eb9f098541a5635
+  nlohmann_json_cocoa: 6270f3c09eb2bf5a8af77c9d0b9bbc2b1c275813
 
-PODFILE CHECKSUM: 9bc2a6b8a6954bf4a83c504f067ad4f04288d919
+PODFILE CHECKSUM: 61d517b8fc2e13abab99809a6546a034d27eef5a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.1

@@ -6,6 +6,6 @@ target 'json-ios example' do
   # use_frameworks!
 
   # Pods for json-ios example
-  pod 'nlohmann_json'
+  pod 'nlohmann_json_cocoa'
 
 end
