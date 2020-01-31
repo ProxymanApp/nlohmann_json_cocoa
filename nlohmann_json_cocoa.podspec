@@ -29,9 +29,7 @@ Pod::Spec.new do |s|
     "Niels Lohmann" => "mail@nlohmann.me"
   }
 
-  s.platform     = :ios, "9.0"
-  s.ios.deployment_target = "9.0"
-  s.osx.deployment_target = "10.12"
+  s.platform     = :osx, "10.12"
 
   s.source       = { :git => "https://github.com/nlohmann/json.git", :tag => "v#{s.version}" }
 
