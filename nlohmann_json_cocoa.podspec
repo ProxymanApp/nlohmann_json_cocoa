@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "nlohmann_json_cocoa"
-  s.version      = "3.6.1"
+  s.version      = "3.7.3"
   s.summary      = "JSON for Modern C++"
 
 
